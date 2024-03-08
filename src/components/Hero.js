@@ -3,9 +3,17 @@ import './Hero.css'
 
 export default function Hero() {
   return (
-    <div className='hero'>
-        <video src={bg} autoPlay loop muted />
-        <h1>TROY</h1>
+    <div className='bg'>
+      <div className='hero-container'>
+
+        <video src={bg} autoPlay loop muted playsInline/>
+
+        <div className='text-container'>
+            <p className='name'>TROY KURNIAWAN</p>
+            <p className='desc'>Front-End Web Developer • Songwriter • DJ • Pokémon Master</p>
+        </div>
+
+      </div>
     </div>
   )
 }
