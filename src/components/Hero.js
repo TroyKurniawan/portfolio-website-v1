@@ -1,12 +1,12 @@
 import bg from '../assets/cloud-bg.jpg';
-import troy from '../assets/troy-avatar.jpg';
+// import troy from '../assets/troy-avatar.jpg';
 import './Hero.css'
 
 export default function Hero() {
   return (
     <div className='bg'>
       <div className='hero-container'>
-        <img src={bg} className='clouds'/>
+        <img src={bg} className='clouds' alt='cloudy background'/>
 
 
         {/* <video src={bg} autoPlay loop muted playsInline/> */}

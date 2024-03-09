@@ -29,6 +29,7 @@
     z-index: 1;
     position: absolute;
     align-content: center;
+    justify-content: center;
 }
 
 .troy {
