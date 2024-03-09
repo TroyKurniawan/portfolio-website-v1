@@ -1,9 +1,9 @@
-import './Intro.css';
+import './About.css';
 
-export default function Intro() {
+export default function About() {
     return (
-        <div className='intro'>
-            <h1><b>TROY<br></br>KURNIAWAN</b></h1>
+        <div className='about'>
+            <h1><b>TROY KURNIAWAN</b></h1>
         </div>
     );
 }

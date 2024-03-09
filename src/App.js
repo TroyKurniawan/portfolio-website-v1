@@ -1,4 +1,5 @@
 import Hero from './components/Hero.js';
+import About from './components/About.js';
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css'
 // import { Button } from 'react-bootstrap';
@@ -8,6 +9,7 @@ import './App.css';
 export default function App() {
   return (
     <>
+
       <head>
         {/* Montserrat Font */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,8 +18,10 @@ export default function App() {
       
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
       </head>
+
       <div className="App">
         <Hero />
+        {/* <About /> */}
       </div>
     </>
   );
