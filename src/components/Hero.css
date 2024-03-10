@@ -1,90 +1,86 @@
-/* CONTAINERS */
-
+/* Background */
 .bg {
     background-color: #f3f3f3;
     z-index: -1;
-    /* position: fixed; */
+    margin: auto;
+    height: 100vh;
 }
 
 /* Contains all content */
 .hero-container {
     width: 100%;
-    height: 100vh;
-    position: relative;
-    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    
+    /* Center Elements */
+    display: grid;
     align-items: center;
-    justify-content: center;
 }
 
-/* cloud bg */
-.clouds {
-    object-fit: cover;
-    width: 100%;
-    height: 100vh;
-    z-index: 0;
+/* Hero Contents */
+p {
+    line-height: normal;
 }
-
-/* Contains text content */
-.text-container {
-    z-index: 1;
-    position: absolute;
-    align-content: center;
-    justify-content: center;
+br {
+    display: inline;
 }
-
-.troy {
-    position: absolute;
-    z-index: 1;
-    scale: 15%;
-    border: 100px solid #ffffff;
+.avatar {
+    width: 70%;
+    height: auto;
     border-radius: 50%;
-    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border: 1.5vh solid #ffffff;
 }
-
 .greeting {
-    color: rgb(35, 35, 35);
+    color: #232323;
+    font-weight: 400;
+    font-size: 9vw;
+    text-align: center;
+    margin: auto;
 }
 .name {
     color: #322e7c;
-}
-.scroll {
-    position: absolute;
-    bottom: 50px;
-    color: rgb(35, 35, 35);
+    font-weight: 900;
+    font-size: 17vw;
+    text-align: center;
+    margin: auto;
 }
 
-/* Landscape View */
-@media screen and (min-width: 768px) {
-    .greeting {
-        margin: auto;
-        font-size: 2.1vw;
-        font-weight: 600;
+/* RESPONSIVE CSS */
+
+@media screen and (min-width: 540px) {
+    .avatar {
+        width: 50%;
     }
-    .name {
-        margin: auto;
+    .greeting {
         font-size: 7vw;
-        font-weight: 900;
     }
-    .scroll {
-        margin: auto;
-        font-size: 20px;
-        font-weight: 400;
+    .name {
+        font-size: 13vw;
     }
 }
 
-/* Portrait View */
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 1025px) {
+    br {
+        display: none;
+    }
+    .avatar {
+        width: 20%;
+    }
     .greeting {
-        margin: auto;
-        font-size: 4vw;
-        font-weight: 600;
+        font-size: 3vw;
     }
     .name {
-        margin: auto;
-        font-size: 10vw;
-        font-weight: 900;
+        font-size: 6vw;
     }
 }
+
+
 
 /* VIDEO */
 
