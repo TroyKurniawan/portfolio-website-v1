@@ -34,7 +34,6 @@ br {
     margin-right: auto;
     margin-bottom: 50px;
     border: 1.5vh solid #322e7c;
-    box-shadow: 5px 5px #43aaff;;
 }
 .greeting {
     color: #232323;
@@ -47,7 +46,6 @@ br {
     color: #322e7c;
     font-weight: 900;
     font-size: 17vw;
-    text-shadow: 5px 5px #43aaff;
     text-align: center;
     margin: auto;
 }

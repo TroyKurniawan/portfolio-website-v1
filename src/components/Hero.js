@@ -10,9 +10,9 @@ export default function Hero() {
       <div className='hero-container fade-in-bck'>
 
         <div>
-          <img src={troy} className='avatar' alt='troy avatar'/>
+          <img src={troy} className='avatar blue-shadow-box' alt='troy avatar'/>
           <p className='greeting'>Hello there!<br/> My name is</p>
-          <p className='name'>TROY</p>
+          <p className='name blue-shadow-text'>TROY</p>
         </div>
 
       </div>

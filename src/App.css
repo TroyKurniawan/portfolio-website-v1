@@ -8,9 +8,15 @@
   font-optical-sizing: auto;
 }
 
+.blue-shadow-text {
+  text-shadow: 5px 5px #43aaff;
+}
+.blue-shadow-box {
+  box-shadow: 5px 5px #43aaff;
+}
+
 .App {
-  /* background-color: #edecff; */
-  z-index: -1;
+
 }
 
 .bg {
@@ -18,7 +24,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  opacity: 3%;
+  opacity: 4%;
   outline: 100px solid black;
   outline-offset: -20px;
 }

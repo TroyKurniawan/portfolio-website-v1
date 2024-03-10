@@ -1,6 +1,6 @@
 import Hero from './components/Hero.js';
-import About from './components/About.js';
-import bg from './assets/shapes-bg.svg';
+import Nav from './components/Nav.js'
+// import About from './components/About.js';
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css'
 // import { Button } from 'react-bootstrap';
@@ -10,7 +10,6 @@ import './App.css';
 export default function App() {
   return (
     <>
-
       <head>
         {/* Montserrat Font */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,9 +19,8 @@ export default function App() {
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
       </head>
 
+      <Nav />
       <div className='bg' />
-      {/* <img src={bg} className='bg' alt='background'/> */}
-      {/* <div className='spacer layer1'></div> */}
 
       <div className="App">
         <Hero />
