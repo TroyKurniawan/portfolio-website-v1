@@ -7,7 +7,7 @@ export default function Hero() {
 
       {/* <img src={bg} alt=''/> */}
       
-      <div className='hero-container'>
+      <div className='hero-container fade-in-bck'>
 
         <div>
           <img src={troy} className='avatar' alt='troy avatar'/>
