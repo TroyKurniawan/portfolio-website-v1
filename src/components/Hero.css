@@ -64,6 +64,21 @@ br {
     }
 }
 
+@media screen and (min-width: 830px) {
+    br {
+        display: none;
+    }
+    .avatar {
+        width: 40%;
+    }
+    .greeting {
+        font-size: 5vw;
+    }
+    .name {
+        font-size: 9vw;
+    }
+}
+
 @media screen and (min-width: 1025px) {
     br {
         display: none;
