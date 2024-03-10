@@ -9,6 +9,28 @@
 }
 
 .App {
-  background-color: #f3f3f3;
+  /* background-color: #edecff; */
   z-index: -1;
+}
+
+.bg {
+  background-image: url('./assets/shapes-bg.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 3%;
+  outline: 100px solid black;
+  outline-offset: -20px;
+}
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .layer1 {
+    background-image: url('./assets/shapes-bg.svg');
+  }
 }

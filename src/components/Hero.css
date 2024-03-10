@@ -1,6 +1,5 @@
 /* Background */
 .bg {
-    background-color: #f3f3f3;
     z-index: -1;
     margin: auto;
     height: 100vh;
@@ -38,7 +37,7 @@ br {
 }
 .greeting {
     color: #232323;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 9vw;
     text-align: center;
     margin: auto;
@@ -47,6 +46,7 @@ br {
     color: #322e7c;
     font-weight: 900;
     font-size: 17vw;
+    text-shadow: 5px 5px #43aaff;
     text-align: center;
     margin: auto;
 }

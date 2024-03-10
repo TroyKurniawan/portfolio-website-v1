@@ -3,7 +3,9 @@ import './Hero.css'
 
 export default function Hero() {
   return (
-    <div className='bg'>
+    <div>
+
+      {/* <img src={bg} alt=''/> */}
       
       <div className='hero-container'>
 

@@ -1,5 +1,6 @@
 import Hero from './components/Hero.js';
 import About from './components/About.js';
+import bg from './assets/shapes-bg.svg';
 import './App.css';
 // import 'bootstrap/dist/css/bootstrap.min.css'
 // import { Button } from 'react-bootstrap';
@@ -18,6 +19,10 @@ export default function App() {
       
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
       </head>
+
+      <div className='bg' />
+      {/* <img src={bg} className='bg' alt='background'/> */}
+      {/* <div className='spacer layer1'></div> */}
 
       <div className="App">
         <Hero />
