@@ -1,11 +1,10 @@
 import troy from '../assets/troy-avatar.jpg';
+import arrow from '../assets/circle-arrow-down-solid.svg';
 import './Hero.css'
 
 export default function Hero() {
   return (
     <div>
-
-      {/* <img src={bg} alt=''/> */}
       
       <div className='hero-container fade-in-bck'>
 
@@ -15,7 +14,10 @@ export default function Hero() {
           <p className='name blue-shadow-text'>TROY</p>
         </div>
 
+          <img src={arrow} className='arrow' alt='arrow'/>
+          
       </div>
+
 
     </div>
   )

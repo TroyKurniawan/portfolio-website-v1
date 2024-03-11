@@ -5,7 +5,7 @@ export default function Nav() {
     return (
         <header>
             
-            <a href='#' className="logo">Logo</a>
+            <a href='#' className="logo">(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</a>
 
             {/* Navbar (Desktop) */}
             <nav className="nav-links">

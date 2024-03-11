@@ -50,17 +50,28 @@ br {
     margin: auto;
 }
 
+.arrow {
+    height: 30px;
+    width: 30px;
+    opacity: 40%;
+    right: 40px;
+    bottom: 40px;
+    display: block;
+    position: fixed;
+    cursor: pointer;
+}
+
 /* RESPONSIVE CSS */
 
 @media screen and (min-width: 540px) {
     .avatar {
-        width: 50%;
+        width: 45%;
     }
     .greeting {
-        font-size: 7vw;
+        font-size: 6vw;
     }
     .name {
-        font-size: 13vw;
+        font-size: 12vw;
     }
 }
 
