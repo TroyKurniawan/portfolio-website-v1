@@ -1,10 +1,6 @@
 import Hero from './components/Hero.js';
 import Nav from './components/Nav.js'
-import menu from './assets/menu-button.svg'
-// import About from './components/About.js';
 import './App.css';
-// import 'bootstrap/dist/css/bootstrap.min.css'
-// import { Button } from 'react-bootstrap';
 
 // Main -----------------------------
 

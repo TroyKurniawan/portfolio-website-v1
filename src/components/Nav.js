@@ -1,13 +1,14 @@
-import menu from '../assets/menu-button.svg'
+import Menu from './Menu.js'
 import './Nav.css';
 
 export default function Nav() {
     return (
         <header>
+            
             <a href='#' className="logo">Logo</a>
 
             {/* Navbar (Desktop) */}
-            <nav className="nav">
+            <nav className="nav-links">
                 <a href='#' className='btn btn-light'>About</a> 
                 <a href='#' className='btn btn-light'>Experience</a> 
                 <a href='#' className='btn btn-light'>Projects</a> 
@@ -16,9 +17,10 @@ export default function Nav() {
             </nav>
 
             {/* Navbar (Mobile) */}
-            <div className='menu-button'>
-                <img src={menu}></img>
+            <div className='menu'>
+                <Menu />
             </div>
+
         </header>
     );
 }

@@ -1,0 +1,59 @@
+/* Button Interactions */
+.menu-button {
+    height: 40px;
+    width: 40px;
+}
+.menu-button:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+.menu-button:active {
+    scale: 0.95;
+}
+
+/* Dropdown Menu */
+.dd-menu {
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    height: 0;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 0%;
+    overflow: hidden;
+    list-style: none;
+    transition: height 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.dd-menu li {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dd-menu a {
+    color: white;
+    font-weight: 700;
+}
+
+/* Opens menu when clicked */
+.open {
+    height: 355px;
+}
+
+@media screen and (min-width: 540px) {
+    .dd-menu {
+        border-radius: 5%;
+        width: 200px;
+        right: 40px;
+    }
+}
+
+@media screen and (min-width: 830px) {
+    .dd-menu {
+        right: 80px;
+    }
+}
