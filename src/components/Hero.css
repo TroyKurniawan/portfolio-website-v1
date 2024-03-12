@@ -1,11 +1,12 @@
 /* Contains all content */
 .hero-container {
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     z-index: 1;
     top: 0;
     bottom: 0;
     line-height: normal;
+    height: 100vh;
     
     /* Center Elements */
     display: grid;

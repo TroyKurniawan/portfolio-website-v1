@@ -1,13 +1,13 @@
 .about {
     z-index: 1;
-    height: 50vh;
-    width: 100vw;
+    /* height: 50vh; */
+    width: 70vw;
     line-height: normal;
-    /* position: absolute; */
     
     /* Center Elements */
-    display: grid;
+    /* display: grid;
     align-items: center;
+    justify-content: center; */
 }
 
 .about-desc h1 {

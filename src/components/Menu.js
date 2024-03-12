@@ -11,19 +11,26 @@ export default function Nav() {
 
             {/* Menu */}
             <div className='dd-menu'>
-                <li><a href='#' className='btn'>About</a></li>
-                <li><a href='#' className='btn'>Experience</a></li>
-                <li><a href='#' className='btn'>Projects</a></li>
-                <li><a href='#' className='btn'>Education</a></li>
-                <li><a href='#' className='btn'>Contact</a></li>
+                <li><a href='#' className='btn' onClick={buttonCloseMenu}>About</a></li>
+                <li><a href='#' className='btn' onClick={buttonCloseMenu}>Experience</a></li>
+                <li><a href='#' className='btn' onClick={buttonCloseMenu}>Projects</a></li>
+                <li><a href='#' className='btn' onClick={buttonCloseMenu}>Education</a></li>
+                <li><a href='#' className='btn' onClick={buttonCloseMenu}>Contact</a></li>
             </div>
         </>
     );
 }
 
-// Function to open menu
+// Function to open/close menu
 function openMenu() {
-    console.log("Menu Click!");
+    console.log("openMenu");
+    const ddMenu = document.querySelector('.dd-menu');
+    ddMenu.classList.toggle('open');
+}
+
+// Function to close menu when any button is pressed
+function buttonCloseMenu() {
+    console.log("buttonCloseMenu");
     const ddMenu = document.querySelector('.dd-menu');
     ddMenu.classList.toggle('open');
 }

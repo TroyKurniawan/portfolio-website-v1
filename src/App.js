@@ -20,7 +20,6 @@ export default function App() {
 
       <div className="app">
 
-        {/* <div className='fixed-bg' /> */}
         <Nav />
         <Hero />
         {/* <About /> */}

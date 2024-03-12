@@ -4,7 +4,7 @@ import './Hero.css';
 
 export default function Hero() {
   return (
-    <div>
+    // <div>
       
       <div className='hero-container fade-in-bck'>
 
@@ -19,6 +19,6 @@ export default function Hero() {
       </div>
 
 
-    </div>
+    // </div>
   )
 }
