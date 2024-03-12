@@ -1,9 +1,9 @@
+import {masterData} from './components/masterData.js';
 import Hero from './components/Hero.js';
 import Nav from './components/Nav.js';
-import About from './components/About.js';
+import Section from './components/Section.js';
+// import About from './components/About.js';
 import './App.css';
-
-// Main -----------------------------
 
 export default function App() {
   return (
@@ -16,18 +16,25 @@ export default function App() {
       
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <title>Troy Kurniawan</title>
+
+        <script type="text/javascript" src="./components/masterData.js"></script>
       </head>
 
       <div className="app">
 
         <Nav />
+
         <Hero />
-        {/* <About /> */}
+
+        <div className='section'>
+          <h1 >Experience</h1>
+          <Section
+            data = {masterData.experience.western_digital}
+          />
+        </div>
 
       </div>
     </>
   );
 }
-
-// Functions -------------------------
 

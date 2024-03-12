@@ -9,7 +9,7 @@ export default function Nav() {
 
             {/* Navbar (Desktop) */}
             <nav className="nav-links">
-                <a href='#' className='btn btn-light'>About</a> 
+                <a href='#about' className='btn btn-light'>About</a> 
                 <a href='#' className='btn btn-light'>Experience</a> 
                 <a href='#' className='btn btn-light'>Projects</a> 
                 <a href='#' className='btn btn-light'>Education</a>

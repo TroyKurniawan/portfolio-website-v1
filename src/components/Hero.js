@@ -11,10 +11,10 @@ export default function Hero() {
         <div>
           <img src={troy} className='avatar blue-shadow-box' alt='troy avatar'/>
           <p className='greeting'>Hello there!<br/> My name is</p>
-          <p className='name blue-shadow-text'>TROY</p>
+          <h1 className='name blue-shadow-text'>TROY</h1>
         </div>
 
-          <img src={arrow} className='arrow' alt='arrow'/>
+          {/* <img src={arrow} className='arrow' alt='arrow'/> */}
           
       </div>
 

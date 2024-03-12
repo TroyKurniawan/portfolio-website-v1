@@ -11,7 +11,7 @@ export default function Nav() {
 
             {/* Menu */}
             <div className='dd-menu'>
-                <li><a href='#' className='btn' onClick={buttonCloseMenu}>About</a></li>
+                <li><a href='#about' className='btn' onClick={buttonCloseMenu}>About</a></li>
                 <li><a href='#' className='btn' onClick={buttonCloseMenu}>Experience</a></li>
                 <li><a href='#' className='btn' onClick={buttonCloseMenu}>Projects</a></li>
                 <li><a href='#' className='btn' onClick={buttonCloseMenu}>Education</a></li>

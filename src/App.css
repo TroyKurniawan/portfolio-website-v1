@@ -6,13 +6,17 @@
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
 
-  --dark-purple: #25225d;
-  --purple: #322e7c;
+  --purple: #393498;
   --light-blue: #43aaff;
 }
 
-* {
-  color: var(--dark-purple);
+.app h1 {
+  color: var(--purple);
+  text-shadow: 5px 5px var(--light-blue);
+  font-weight: 900;
+}
+.app p {
+  font-weight: 500;
 }
 
 /* Background */

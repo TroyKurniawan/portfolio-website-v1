@@ -1,10 +1,10 @@
-.about {
+.section {
     z-index: 1;
     /* height: 50vh; */
     margin-left: auto;
     margin-right: auto;
     width: 60vw;
-    height: 40vh;
+    /* height: 40vh; */
     line-height: normal;
     
     /* Center Elements */
@@ -13,10 +13,13 @@
     justify-content: center;
 }
 
-.about-desc h1 {
+.section h2 {
     font-size: 40px;
 }
-.about-desc p {
+.section h3 {
+    font-size: 30px;
+}
+.section p {
     font-size: 18px;
     line-height: 30px;
 }
