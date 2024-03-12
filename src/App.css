@@ -1,4 +1,3 @@
-
 /* MONTSERRAT FONT */
 /* <uniquifier>: Use a unique and descriptive class name */
 /* <weight>: Use a value from 100 to 900 */
@@ -6,9 +5,29 @@
 * {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
+
   --dark-purple: #25225d;
   --purple: #322e7c;
   --light-blue: #43aaff;
+}
+
+* {
+  color: var(--dark-purple);
+}
+
+/* Background */
+.app {
+  background-image: url('./assets/shapes-bg.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(255,255,255, 0.96);
+  background-blend-mode: lighten;
+
+  outline: 15px solid white;
+  outline-offset: -15px;
+
+  height: 100vh;
 }
 
 .blue-shadow-text {
@@ -16,30 +35,4 @@
 }
 .blue-shadow-box {
   box-shadow: 5px 5px var(--light-blue);
-}
-
-.App {
-
-}
-
-.bg {
-  background-image: url('./assets/shapes-bg.svg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  opacity: 4%;
-  outline: 100px solid black;
-  outline-offset: -15px;
-}
-
-.spacer {
-  aspect-ratio: 960/300;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-  .layer1 {
-    background-image: url('./assets/shapes-bg.svg');
-  }
 }

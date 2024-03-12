@@ -1,6 +1,6 @@
 import troy from '../assets/troy-avatar.jpg';
 import arrow from '../assets/circle-arrow-down-solid.svg';
-import './Hero.css'
+import './Hero.css';
 
 export default function Hero() {
   return (

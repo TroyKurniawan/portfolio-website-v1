@@ -1,5 +1,6 @@
 import Hero from './components/Hero.js';
-import Nav from './components/Nav.js'
+import Nav from './components/Nav.js';
+import About from './components/About.js';
 import './App.css';
 
 // Main -----------------------------
@@ -17,12 +18,13 @@ export default function App() {
         <title>Troy Kurniawan</title>
       </head>
 
-      <Nav />
-      <div className='bg' />
+      <div className="app">
 
-      <div className="App">
+        {/* <div className='fixed-bg' /> */}
+        <Nav />
         <Hero />
         {/* <About /> */}
+
       </div>
     </>
   );
