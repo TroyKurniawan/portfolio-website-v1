@@ -8,9 +8,12 @@ export const masterData = {
         western_digital: {
             title: 'Western Digital',
             subtitle: 'DevOps Engineer',
-            date: 'July 2019 - June 2021',
-            location: 'Milpitas, CA',
-            info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+            date: '2019 - 2021',
+            info: 'Maintained an internal-website hosting webapps used by the department. \
+            Webapps fetched and displayed various user data to coworkers to diagnose user issues, \
+            including device log data (status, errors, updates, capacity, boot up times, etc). \
+            and user account data (email, login time, device serial numbers, etc). \
+            Ensured that coworkers have the tools they need to diagnose and solve the issues of +100,000 device users.'
         }
     },
 
@@ -20,11 +23,10 @@ export const masterData = {
     
     education: {
         sjsu: {
-            title: 'Western Digital',
-            subtitle: 'DevOps Engineer',
-            date: 'July 2019 - June 2021',
-            location: 'Milpitas, CA',
-            info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'    
+            title: 'San José State University',
+            subtitle: 'B.S. Computer Engineering • Mathematics Minor',
+            date: 'Spring 2019',
+            info: ''    
         }
     }
 }

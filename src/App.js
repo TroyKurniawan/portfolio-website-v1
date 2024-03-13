@@ -22,14 +22,37 @@ export default function App() {
 
       <div className="app">
 
+        {/* Navbar */}
         <Nav />
 
+        {/* Hero Section (Avatar and Greeting) */}
         <Hero />
 
-        <div className='section'>
-          <h1 >Experience</h1>
+        {/* Experience */}
+        <div className='section' id='experience'>
+          <h1 >EXPERIENCE</h1>
           <Section
             data = {masterData.experience.western_digital}
+          />
+        </div>
+
+        <hr />
+
+        {/* Projects */}
+        <div className='section' id='projects'>
+          <h1 >PROJECTS</h1>
+          <Section
+            data = {masterData.experience.western_digital}
+          />
+        </div>
+
+        <hr />
+
+        {/* Education */}
+        <div className='section' id='education'>
+          <h1 >EDUCATION</h1>
+          <Section
+            data = {masterData.education.sjsu}
           />
         </div>
 

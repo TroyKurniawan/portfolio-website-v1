@@ -10,13 +10,38 @@
   --light-blue: #43aaff;
 }
 
-.app h1 {
+.section {
+  z-index: 1;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  display: grid;
+  align-items: center;
+  align-content: center;
+}
+.section h1 {
   color: var(--purple);
-  text-shadow: 5px 5px var(--light-blue);
+  text-shadow: 4px 4px var(--light-blue);
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.section h2 {
+  font-size: 23px;
   font-weight: 900;
 }
-.app p {
+.section h3 {
+  font-size: 15px;
+  font-weight: 900;
+}
+.section p {
+  font-size: 15px;
   font-weight: 500;
+  line-height: 25px;
+  margin-bottom: 5px; 
 }
 
 /* Background */
@@ -32,9 +57,39 @@
   outline-offset: -15px;
 }
 
-.blue-shadow-text {
-  text-shadow: 5px 5px var(--light-blue);
-}
 .blue-shadow-box {
   box-shadow: 5px 5px var(--light-blue);
+}
+
+.app hr {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid gray;
+}
+
+/* Responsive CSS */
+@media screen and (min-width: 540px) {
+  .section {
+    width: 60vw;
+  }
+  .app hr {
+    width: 60vw;
+  }
+}
+
+@media screen and (min-width: 830px) {
+  .section h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .section h3 {
+    font-size: 18px;
+  }
+  .section p {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }

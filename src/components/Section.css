@@ -1,26 +1,4 @@
-.section {
-    z-index: 1;
-    /* height: 50vh; */
-    margin-left: auto;
-    margin-right: auto;
-    width: 60vw;
-    /* height: 40vh; */
-    line-height: normal;
-    
-    /* Center Elements */
-    display: grid;
-    align-items: center;
-    justify-content: center;
+.data {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-
-.section h2 {
-    font-size: 40px;
-}
-.section h3 {
-    font-size: 30px;
-}
-.section p {
-    font-size: 18px;
-    line-height: 30px;
-}
-

@@ -12,10 +12,10 @@ export default function Nav() {
             {/* Menu */}
             <div className='dd-menu'>
                 <li><a href='#about' className='btn' onClick={buttonCloseMenu}>About</a></li>
-                <li><a href='#' className='btn' onClick={buttonCloseMenu}>Experience</a></li>
-                <li><a href='#' className='btn' onClick={buttonCloseMenu}>Projects</a></li>
-                <li><a href='#' className='btn' onClick={buttonCloseMenu}>Education</a></li>
-                <li><a href='#' className='btn' onClick={buttonCloseMenu}>Contact</a></li>
+                <li><a href='#experience' className='btn' onClick={buttonCloseMenu}>Experience</a></li>
+                <li><a href='#projects' className='btn' onClick={buttonCloseMenu}>Projects</a></li>
+                <li><a href='#education' className='btn' onClick={buttonCloseMenu}>Education</a></li>
+                <li><a href='#contact' className='btn' onClick={buttonCloseMenu}>Contact</a></li>
             </div>
         </>
     );

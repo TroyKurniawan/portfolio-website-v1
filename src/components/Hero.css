@@ -18,7 +18,7 @@ br {
     display: inline;
 }
 .avatar {
-    width: 70%;
+    width: 300px;
     height: auto;
     border-radius: 50%;
     display: block;
@@ -28,12 +28,15 @@ br {
     border: 1.2vh solid var(--purple);
 }
 .greeting {
-    font-size: 9vw;
+    font-size: 35px;
     text-align: center;
     margin: auto;
 }
 .name {
-    font-size: 17vw;
+    color: var(--purple);
+    text-shadow: 5px 5px var(--light-blue);
+    font-size: 70px;
+    font-weight: 900;
     text-align: center;
     margin: auto;
 }
@@ -52,44 +55,18 @@ br {
 /* RESPONSIVE CSS */
 
 @media screen and (min-width: 540px) {
-    .avatar {
-        width: 45%;
-    }
-    .greeting {
-        font-size: 6vw;
-    }
-    .name {
-        font-size: 12vw;
-    }
+
 }
 
 @media screen and (min-width: 830px) {
     br {
         display: none;
     }
-    .avatar {
-        width: 40%;
-    }
-    .greeting {
-        font-size: 5vw;
-    }
-    .name {
-        font-size: 9vw;
-    }
 }
 
 @media screen and (min-width: 1025px) {
     br {
         display: none;
-    }
-    .avatar {
-        width: 20%;
-    }
-    .greeting {
-        font-size: 3vw;
-    }
-    .name {
-        font-size: 6vw;
     }
 }
 

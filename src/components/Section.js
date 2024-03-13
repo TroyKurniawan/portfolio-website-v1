@@ -4,12 +4,11 @@ import './Section.css';
 
 export default function Section({ data }) {
     return (
-        <div className='section'>
-            <h2><b>{ data.title }</b></h2>
+        <div className='data'>
+            <p>{ data.date }</p>
+            <h2>{ data.title }</h2>
             <h3>{ data.subtitle }</h3>
-            <div className='about-desc'>
-                <p>{ data.info }</p>
-            </div>
+            <p>{ data.info }</p>
         </div>
     );
 }
