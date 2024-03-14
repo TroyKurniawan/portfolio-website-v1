@@ -2,6 +2,7 @@ import {masterData} from './components/masterData.js';
 import Hero from './components/Hero.js';
 import Nav from './components/Nav.js';
 import Section from './components/Section.js';
+import Footer from './components/Footer.js';
 // import About from './components/About.js';
 import './App.css';
 
@@ -42,7 +43,7 @@ export default function App() {
         <div className='section' id='projects'>
           <h1 >PROJECTS</h1>
           <Section
-            data = {masterData.experience.western_digital}
+            data = {masterData.projects.portfolio}
           />
         </div>
 
@@ -56,6 +57,10 @@ export default function App() {
           />
         </div>
 
+
+        <div className='footer'>
+          <Footer />
+        </div>
       </div>
     </>
   );

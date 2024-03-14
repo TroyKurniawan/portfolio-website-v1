@@ -18,14 +18,20 @@ export const masterData = {
     },
 
     projects: {
-
+        portfolio: {
+            title: 'Portfolio Website',
+            subtitle: 'You are here!',
+            date: '2024',
+            info: 'This website was built from scratch using React, with some styling help from Bootstrap. \
+            It is fully responsive, providing a friendly user experience for any device.'
+        }
     },
     
     education: {
         sjsu: {
             title: 'San José State University',
             subtitle: 'B.S. Computer Engineering • Mathematics Minor',
-            date: 'Spring 2019',
+            date: '2019',
             info: ''    
         }
     }
