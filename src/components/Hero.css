@@ -29,6 +29,7 @@
 }
 .greeting {
     font-size: 35px;
+    font-weight: 700;
     text-align: center;
     margin: auto;
 }
@@ -64,10 +65,8 @@
     }
 }
 
-@media screen and (min-width: 1025px) {
-    .greeting br {
-        display: none;
-    }
+@media screen and (min-width: 1070px) {
+
 }
 
 /* Animations */
