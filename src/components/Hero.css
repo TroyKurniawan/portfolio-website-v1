@@ -42,17 +42,6 @@
     margin: auto;
 }
 
-.arrow {
-    height: 30px;
-    width: 30px;
-    opacity: 40%;
-    right: 40px;
-    bottom: 40px;
-    display: block;
-    position: fixed;
-    cursor: pointer;
-}
-
 /* RESPONSIVE CSS */
 
 @media screen and (min-width: 540px) {

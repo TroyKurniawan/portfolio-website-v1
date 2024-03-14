@@ -13,12 +13,23 @@ footer {
     align-items: center;
     justify-content: center;
 }
+.footer-message {
+    text-align: center;
+}
 .links {
     justify-self: center;
     margin-bottom: 50px;
 }
-.footer-message {
-    text-align: center;
+.links img {
+    height: 30px;
+    width: 30px;
+}
+.links img:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+.links img:active {
+    scale: 0.9;
 }
 
 @media screen and (min-width: 540px) {
