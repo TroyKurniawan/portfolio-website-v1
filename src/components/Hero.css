@@ -14,7 +14,7 @@
 }
 
 /* Hero Contents */
-br {
+.greeting br {
     display: inline;
 }
 .avatar {
@@ -59,13 +59,13 @@ br {
 }
 
 @media screen and (min-width: 830px) {
-    br {
+    .greeting br {
         display: none;
     }
 }
 
 @media screen and (min-width: 1025px) {
-    br {
+    .greeting br {
         display: none;
     }
 }

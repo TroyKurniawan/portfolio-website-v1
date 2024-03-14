@@ -1,3 +1,16 @@
-.footer-content {
-    /* display: flex; */
+footer {
+    z-index: 1;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20vw;
+    padding-right: 20vw;
+
+    background-color: var(--purple);
+    color: white;
+}
+
+.footer-contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

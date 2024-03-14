@@ -1,10 +1,12 @@
+import './Footer.css';
+
 export default function Footer() {
     return (
-        <div className="footer-content">
-            <div>
-                <div>Links</div>
-                <p>Built with React and Bootstrap.</p>
+        <footer>
+            <div className='footer-contents'>
+                <div>[LINKS]</div>
+                <div>Built with React, Bootstrap, and love 💞 <br/> Deployed with [ADD SERVICE HERE] 🌐</div>
             </div>
-        </div>
+        </footer>
     );
 }

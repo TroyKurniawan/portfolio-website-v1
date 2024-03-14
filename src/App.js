@@ -57,10 +57,8 @@ export default function App() {
           />
         </div>
 
-
-        <div className='footer'>
-          <Footer />
-        </div>
+        <Footer />
+        
       </div>
     </>
   );
