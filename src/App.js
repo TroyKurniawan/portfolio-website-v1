@@ -30,7 +30,8 @@ export default function App() {
         <Hero />
 
         {/* Experience */}
-        <div className='section' id='experience'>
+        <span className='anchor' id='experience'></span>
+        <div className='section'>
           <h1 >EXPERIENCE</h1>
           <Section
             data = {masterData.experience.western_digital}
@@ -40,7 +41,8 @@ export default function App() {
         <hr />
 
         {/* Projects */}
-        <div className='section' id='projects'>
+        <span className='anchor' id='projects'></span>
+        <div className='section'>
           <h1 >PROJECTS</h1>
           <Section
             data = {masterData.projects.portfolio}
@@ -50,7 +52,8 @@ export default function App() {
         <hr />
 
         {/* Education */}
-        <div className='section' id='education'>
+        <span className='anchor' id='education'></span>
+        <div className='section'>
           <h1 >EDUCATION</h1>
           <Section
             data = {masterData.education.sjsu}
