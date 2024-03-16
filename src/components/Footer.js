@@ -1,4 +1,6 @@
 import linkedin from '../assets/linkedin-logo.png';
+import github from '../assets/github-mark-white.svg';
+import email from '../assets/email.png';
 import './Footer.css';
 
 export default function Footer() {
@@ -9,6 +11,12 @@ export default function Footer() {
                 <div className='links'>
                     <a href='https://www.linkedin.com/in/troy-kurniawan/' target="_blank" rel="noopener noreferrer">
                         <img src={linkedin} />
+                    </a>
+                    <a href='https://github.com/TroyKurniawan' target="_blank" rel="noopener noreferrer">
+                        <img src={github} />
+                    </a>
+                    <a href='mailto:troykurniawan97@gmail.com' target="_blank" rel="noopener noreferrer">
+                        <img src={email} />
                     </a>
                 </div>
 

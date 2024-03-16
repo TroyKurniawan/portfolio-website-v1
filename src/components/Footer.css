@@ -23,13 +23,11 @@ footer {
 .links img {
     height: 30px;
     width: 30px;
+    margin: 15px;
 }
 .links img:hover {
-    scale: 1.1;
     cursor: pointer;
-}
-.links img:active {
-    scale: 0.9;
+    opacity: 70%;
 }
 
 @media screen and (min-width: 540px) {
