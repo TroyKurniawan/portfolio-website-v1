@@ -13,17 +13,19 @@ export const masterData = {
             Webapps fetched and displayed various user data to coworkers to diagnose user device issues, \
             including device log data (status, errors, updates, capacity, boot up times, etc) \
             and user account data (email, login time, device serial numbers, etc). \
-            Ensured that coworkers have the tools they need to diagnose and solve the issues of +100,000 device users.'
+            Ensured that coworkers have the tools they need to diagnose and solve the issues of +100,000 device users.',
+            link: ''
         }
     },
 
     projects: {
         portfolio: {
             title: 'Portfolio Website',
-            subtitle: 'You are here!',
+            subtitle: '',
             date: '2024',
             info: 'This website was built from scratch using React, with some styling help from Bootstrap. \
-            It is fully responsive, providing a friendly user experience for any device.'
+            It is fully responsive, providing a friendly user experience for any device.',
+            link: 'https://github.com/TroyKurniawan/portfolio-website-v1'
         }
     },
     
@@ -32,7 +34,8 @@ export const masterData = {
             title: 'San José State University',
             subtitle: 'B.S. Computer Engineering • Mathematics Minor',
             date: '2019',
-            info: ''    
+            info: '',
+            link: ''
         }
     }
 }
