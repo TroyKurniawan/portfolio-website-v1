@@ -13,7 +13,7 @@ export default function Nav() {
                 <a href='#experience' className='btn btn-light'>Experience</a> 
                 <a href='#projects' className='btn btn-light'>Projects</a> 
                 <a href='#education' className='btn btn-light'>Education</a>
-                <a href='#contact' className='btn btn-light'>Contact</a>
+                <a href='mailto:troykurniawan97@gmail.com' className='btn btn-light'>Contact</a>
             </nav>
 
             {/* Navbar (Mobile) */}

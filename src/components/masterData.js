@@ -1,9 +1,19 @@
-// export function getMasterData() {
-//     return masterData;
-// }
-
 export const masterData = {
 
+    about: {
+        me: {
+            title: '',
+            subtitle: '',
+            date: '',
+            info: "I'm Troy Kurniawan, a front-end web developer from the San Francisco Bay Area. \
+            I've always been interested in all things tech, whether it be tinkering with video game consoles, \
+            or reading Wikipedia to learn about how . I was eventually introduced to web development in university, \
+            where I would make webapps for classes and student clubs. After a break, I've now reignited my passion for webdev, \
+            looking to explore everything it has to offer and what's to come next. \
+            In my spare time, I like to write music, DJ, draw, and catch Pokémon.",
+            link: ''
+        }
+    },
     experience: {
         western_digital: {
             title: 'Western Digital',

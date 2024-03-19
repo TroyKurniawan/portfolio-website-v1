@@ -29,10 +29,20 @@ export default function App() {
         {/* Hero Section (Avatar and Greeting) */}
         <Hero />
 
+        <span className='anchor' id='about'></span>
+        <div className='section'>
+          <h1>About</h1>
+          <Section
+            data = {masterData.about.me}
+          />
+        </div>
+
+        <hr />
+
         {/* Experience */}
         <span className='anchor' id='experience'></span>
         <div className='section'>
-          <h1 >Experience</h1>
+          <h1>Experience</h1>
           <Section
             data = {masterData.experience.western_digital}
           />
@@ -43,7 +53,7 @@ export default function App() {
         {/* Projects */}
         <span className='anchor' id='projects'></span>
         <div className='section'>
-          <h1 >Projects</h1>
+          <h1>Projects</h1>
           <Section
             data = {masterData.projects.portfolio}
           />
@@ -54,7 +64,7 @@ export default function App() {
         {/* Education */}
         <span className='anchor' id='education'></span>
         <div className='section'>
-          <h1 >Education</h1>
+          <h1>Education</h1>
           <Section
             data = {masterData.education.sjsu}
           />

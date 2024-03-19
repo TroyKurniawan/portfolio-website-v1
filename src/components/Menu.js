@@ -15,7 +15,7 @@ export default function Nav() {
                 <li><a href='#experience' className='btn' onClick={buttonCloseMenu}>Experience</a></li>
                 <li><a href='#projects' className='btn' onClick={buttonCloseMenu}>Projects</a></li>
                 <li><a href='#education' className='btn' onClick={buttonCloseMenu}>Education</a></li>
-                <li><a href='#contact' className='btn' onClick={buttonCloseMenu}>Contact</a></li>
+                <li><a href='mailto:troykurniawan97@gmail.com' className='btn' onClick={buttonCloseMenu}>Contact</a></li>
             </div>
         </>
     );
