@@ -1,15 +1,29 @@
 .gallery {
-    width: 60vw;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .gallery img {
-    width: 17vw;
+    width: 60vw;
     margin: 10px;
     border-radius: 10px;
     z-index: 2;
+}
+
+@media screen and (min-width: 540px) {
+    .gallery {
+        display: flex;
+        height: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .gallery img {
+        width: 17vw;
+        margin: 10px;
+        border-radius: 10px;
+        z-index: 2;
+    }
 }
 
 /* .gallery a::before {
