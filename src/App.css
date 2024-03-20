@@ -65,13 +65,14 @@
 }
 
 /* Background */
-.app {
+div.app {
   background-image: url('./assets/shapes-bg.svg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: rgba(255,255,255, 0.96);
   background-blend-mode: lighten;
+  z-index: -1;
 
   /* outline: 15px solid white;
   outline-offset: -15px; */

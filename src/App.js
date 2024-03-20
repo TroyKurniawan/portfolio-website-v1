@@ -3,7 +3,7 @@ import Hero from './components/Hero.js';
 import Nav from './components/Nav.js';
 import Section from './components/Section.js';
 import Footer from './components/Footer.js';
-// import About from './components/About.js';
+import ImageGallery from './components/ImageGallery.js';
 import './App.css';
 
 export default function App() {
@@ -20,7 +20,7 @@ export default function App() {
 
         <script type="text/javascript" src="./components/masterData.js"></script>
       </head>
-
+      
       <div className="app">
 
         {/* Navbar */}
@@ -35,6 +35,7 @@ export default function App() {
           <Section
             data = {masterData.about.me}
           />
+          <ImageGallery />
         </div>
 
         <hr />

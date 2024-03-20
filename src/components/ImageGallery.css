@@ -1,0 +1,30 @@
+.gallery {
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: 17vw;
+    margin: 10px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+/* .gallery a::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 19vh;
+    width: 18vw;
+    margin: 10px;
+    background-color: var(--light-blue);
+    position: absolute;
+    border-radius: 10px;
+    rotate: -2deg;
+}
+
+.gallery a {
+    z-index: 0;
+} */
