@@ -1,6 +1,6 @@
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    /* flex-wrap: wrap; */
     justify-content: center;
 }
 
