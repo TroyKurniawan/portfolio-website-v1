@@ -9,30 +9,32 @@ export default function Section({ data }) {
             <h2>{ data.title }</h2>
             <h3>{ data.subtitle }</h3>
             <p>{ data.info }</p>
-            <DisplaySkills data={data} />
-            <DisplayLink data={data} />
+            <div class='section-footer'>
+                <DisplaySkills data={data} />
+                <DisplayLink data={data} />
+            </div>
         </div>
     );
 }
 
 // ================================
 
-function DisplayLink ({data}) {
-    if(data.link != '') {
-        return <a class='btn btn-secondary' href={ data.link } target="_blank" rel="noopener noreferrer">GitHub Repository</a>;
+function DisplaySkills ({data}) {
+    if(data.skills != '') {
+        let skillsArray = data.skills.split(',');
+        for (let i=0; i<skillsArray.length; i++){
+            skillsArray[i] = <span class='skill badge blue-shadow-box'>{skillsArray[i]}</span>
+        }
+        return skillsArray;
     }
     else {
         return null;
     }
 }
 
-function DisplaySkills ({data}) {
-    if(data.skills != '') {
-        let skillsArray = data.skills.split(',');
-        for (let i=0; i<skillsArray.length; i++){
-            skillsArray[i] = <a class='btn btn-primary'>{skillsArray[i]}</a>
-        }
-        return skillsArray;
+function DisplayLink ({data}) {
+    if(data.link != '') {
+        return <div class='section-link'><a href={ data.link } target="_blank" rel="noopener noreferrer">View GitHub Repository</a></div>;
     }
     else {
         return null;
