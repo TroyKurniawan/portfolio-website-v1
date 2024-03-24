@@ -11,6 +11,7 @@ export const masterData = {
             where I would make webapps for classes and student clubs. After a break, I've now reignited my passion for webdev, \
             looking to explore everything it has to offer and what's to come next. \
             In my spare time, I like to write music, DJ, draw, and catch Pokémon.",
+            skills: '',
             link: ''
         }
     },
@@ -24,6 +25,7 @@ export const masterData = {
             including device log data (status, errors, updates, capacity, boot up times, etc) \
             and user account data (email, login time, device serial numbers, etc). \
             Ensured that coworkers have the tools they need to diagnose and solve the issues of +100,000 device users.',
+            skills: 'JavaScript,HTML & CSS',
             link: ''
         }
     },
@@ -35,6 +37,7 @@ export const masterData = {
             date: '2024',
             info: 'This website was built from scratch using React, with some styling help from Bootstrap. \
             It is fully responsive, providing a friendly user experience for any device.',
+            skills: 'React,Bootstrap,JavaScript,HTML & CSS',
             link: 'https://github.com/TroyKurniawan/portfolio-website-v1'
         }
     },
@@ -45,6 +48,7 @@ export const masterData = {
             subtitle: 'B.S. Computer Engineering • Mathematics Minor',
             date: '2019',
             info: '',
+            skills: '',
             link: ''
         }
     }
