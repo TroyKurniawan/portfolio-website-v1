@@ -69,6 +69,9 @@ export default function App() {
           <Section
             data = {masterData.education.sjsu}
           />
+          <Section
+            data = {masterData.education.google_certificate}
+          />
         </div>
 
         {/* <div className='arrow'>

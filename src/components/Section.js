@@ -34,7 +34,7 @@ function DisplaySkills ({data}) {
 
 function DisplayLink ({data}) {
     if(data.link != '') {
-        return <div className='section-link'><a className='btn btn-dark' href={ data.link } target="_blank" rel="noopener noreferrer">View GitHub Repository</a></div>;
+        return <div className='section-link'><a className='btn btn-dark' href={ data.link } target="_blank" rel="noopener noreferrer">{ data.link_text}</a></div>;
     }
     else {
         return null;

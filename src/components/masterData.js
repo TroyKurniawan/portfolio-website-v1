@@ -12,7 +12,8 @@ export const masterData = {
             looking to explore everything it has to offer and what's to come next. \
             In my spare time, I like to write music, DJ, draw, and catch Pokémon.",
             skills: '',
-            link: ''
+            link: '',
+            link_text: ''
         }
     },
     experience: {
@@ -26,7 +27,8 @@ export const masterData = {
             and user account data (email, login time, device serial numbers, etc). \
             Ensured that coworkers have the tools they need to diagnose and solve the issues of +100,000 device users.',
             skills: 'JavaScript,HTML & CSS',
-            link: ''
+            link: '',
+            link_text: ''
         }
     },
 
@@ -38,7 +40,8 @@ export const masterData = {
             info: 'This website was built from scratch using React, with some styling help from Bootstrap. \
             It is fully responsive, providing a friendly user experience for any device.',
             skills: 'React,Bootstrap,JavaScript,HTML & CSS,Adobe Photoshop',
-            link: 'https://github.com/TroyKurniawan/portfolio-website-v1'
+            link: 'https://github.com/TroyKurniawan/portfolio-website-v1',
+            link_text: 'View GitHub Repository'
         }
     },
     
@@ -49,7 +52,17 @@ export const masterData = {
             date: '2019',
             info: '',
             skills: '',
-            link: ''
+            link: '',
+            link_text: ''
+        },
+        google_certificate: {
+            title: 'Google IT Support Professional Certificate',
+            subtitle: 'Online Course (Coursera)',
+            date: '2023',
+            info: '',
+            skills: '',
+            link: 'https://coursera.org/share/18e90c082c0a9e32c3640edec22a0447',
+            link_text: 'View Certification'
         }
     }
 }
