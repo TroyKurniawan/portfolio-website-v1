@@ -23,7 +23,7 @@ function DisplaySkills ({data}) {
     if(data.skills != '') {
         let skillsArray = data.skills.split(',');
         for (let i=0; i<skillsArray.length; i++){
-            skillsArray[i] = <span class='skill badge blue-shadow-box'>{skillsArray[i]}</span>
+            skillsArray[i] = <span className='skill badge blue-shadow-box'>{skillsArray[i]}</span>
         }
         return skillsArray;
     }
@@ -34,7 +34,7 @@ function DisplaySkills ({data}) {
 
 function DisplayLink ({data}) {
     if(data.link != '') {
-        return <div class='section-link'><a href={ data.link } target="_blank" rel="noopener noreferrer">View GitHub Repository</a></div>;
+        return <div className='section-link'><a className='btn btn-dark' href={ data.link } target="_blank" rel="noopener noreferrer">View GitHub Repository</a></div>;
     }
     else {
         return null;

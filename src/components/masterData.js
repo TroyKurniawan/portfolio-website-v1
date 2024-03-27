@@ -37,7 +37,7 @@ export const masterData = {
             date: '2024',
             info: 'This website was built from scratch using React, with some styling help from Bootstrap. \
             It is fully responsive, providing a friendly user experience for any device.',
-            skills: 'React,Bootstrap,JavaScript,HTML & CSS',
+            skills: 'React,Bootstrap,JavaScript,HTML & CSS,Adobe Photoshop',
             link: 'https://github.com/TroyKurniawan/portfolio-website-v1'
         }
     },
