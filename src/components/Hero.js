@@ -1,5 +1,5 @@
 import troy from '../assets/troy-avatar.jpg';
-import './Hero.css';
+import '../styles/Hero.css';
 
 export default function Hero() {
   return (

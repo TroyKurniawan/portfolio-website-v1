@@ -1,7 +1,7 @@
 import linkedin from '../assets/linkedin-logo.png';
 import github from '../assets/github-mark-white.svg';
 import email from '../assets/email.png';
-import './Footer.css';
+import '../styles/Footer.css';
 
 export default function Footer() {
     return (

@@ -1,5 +1,5 @@
 import menuBtn from '../assets/menu-button.svg'
-import './Menu.css';
+import '../styles/Menu.css';
 
 export default function Nav() {
     return (

@@ -1,4 +1,4 @@
-import './Section.css';
+import '../styles/Section.css';
 
 // object --> title, subtitle, date, location, info 
 
@@ -20,7 +20,7 @@ export default function Section({ data }) {
 // ================================
 
 function DisplaySkills ({data}) {
-    if(data.skills != '') {
+    if(data.skills !== '') {
         let skillsArray = data.skills.split(',');
         for (let i=0; i<skillsArray.length; i++){
             skillsArray[i] = <span className='skill badge blue-shadow-box'>{skillsArray[i]}</span>
@@ -33,7 +33,7 @@ function DisplaySkills ({data}) {
 }
 
 function DisplayLink ({data}) {
-    if(data.link != '') {
+    if(data.link !== '') {
         return <div className='section-link'><a className='btn btn-dark' href={ data.link } target="_blank" rel="noopener noreferrer">{ data.link_text}</a></div>;
     }
     else {

@@ -1,10 +1,10 @@
-import {masterData} from './components/masterData.js';
-import Hero from './components/Hero.js';
-import Nav from './components/Nav.js';
-import Section from './components/Section.js';
-import Footer from './components/Footer.js';
-import ImageGallery from './components/ImageGallery.js';
-import './App.css';
+import {masterData} from './masterData.js';
+import Hero from './Hero.js';
+import Nav from './Nav.js';
+import Section from './Section.js';
+import Footer from './Footer.js';
+import ImageGallery from './ImageGallery.js';
+import '../styles/App.css';
 
 export default function App() {
   return (

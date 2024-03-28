@@ -1,5 +1,5 @@
 import Menu from './Menu.js';
-import './Nav.css';
+import '../styles/Nav.css';
 
 export default function Nav() {
     return (

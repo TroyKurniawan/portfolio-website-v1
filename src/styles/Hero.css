@@ -35,7 +35,7 @@
 }
 .name {
     color: var(--purple);
-    text-shadow: 5px 5px var(--light-blue);
+    /* text-shadow: 5px 5px var(--light-blue); */
     font-size: 70px;
     font-weight: 900;
     text-align: center;

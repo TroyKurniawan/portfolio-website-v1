@@ -23,7 +23,7 @@
 }
 .section h1 {
   color: var(--purple);
-  text-shadow: 4px 4px var(--light-blue);
+  /* text-shadow: 4px 4px var(--light-blue); */
   font-size: 30px;
   font-weight: 900;
   margin-top: 10px;
@@ -66,7 +66,7 @@
 
 /* Background */
 div.app {
-  background-image: url('./assets/shapes-bg.svg');
+  background-image: url('../assets/shapes-bg.svg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
