@@ -58,6 +58,9 @@ export default function App() {
           <Section
             data = {masterData.projects.portfolio}
           />
+          <Section
+            data = {masterData.projects.firefighter_finder}
+          />
         </div>
 
         <hr />

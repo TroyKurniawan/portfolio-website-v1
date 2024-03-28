@@ -26,12 +26,21 @@ export const masterData = {
     projects: {
         portfolio: {
             title: 'Portfolio Website',
-            subtitle: '',
+            subtitle: 'v1',
             date: '2024',
             info: 'This website was built from scratch using React, with some styling help from Bootstrap. It is fully responsive providing a friendly user experience for any device.',
             skills: 'React,Bootstrap,JavaScript,HTML & CSS,Adobe Photoshop',
             link: 'https://github.com/TroyKurniawan/portfolio-website-v1',
             link_text: 'View GitHub Repository'
+        },
+        firefighter_finder: {
+            title: 'Real-time GPS Module + Website Interface Tracker',
+            subtitle: '"Firefighter Finder"',
+            date: '2019',
+            info: 'Developed a proof-of-concept GPS tracking system meant for firefighters. Created using a Wi-Fi enabled microcontroller paired with a GPS module, where location data is sent to a Google Firebase database. A website interface was developed to track every GPS module on a Google Map, which provides latitude/longitude coordinates and drawing tools.',
+            skills: 'JavaScript,HTML & CSS,Google Firebase',
+            link: 'https://youtu.be/JNLT8FqZ3aM',
+            link_text: 'View Demo Video'
         }
     },
     
