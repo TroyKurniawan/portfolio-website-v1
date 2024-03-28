@@ -7,15 +7,15 @@ export default function ImageGallery() {
   return (
     <>
         <div className='gallery'>
-            <a className='img-container'>
+            <div className='img-container'>
                 <img className='blue-shadow-box' alt='img1' src={about1}/>
-            </a>
-            <a className='img-container'>
+            </div>
+            <div className='img-container'>
                 <img className='blue-shadow-box' alt='img1' src={about2}/>
-            </a>
-            <a className='img-container'>
+            </div>
+            <div className='img-container'>
                 <img className='blue-shadow-box' alt='img1' src={about3}/>
-            </a>
+            </div>
         </div>
     </>
   )

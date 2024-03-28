@@ -25,20 +25,3 @@
         z-index: 2;
     }
 }
-
-/* .gallery a::before {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    height: 19vh;
-    width: 18vw;
-    margin: 10px;
-    background-color: var(--light-blue);
-    position: absolute;
-    border-radius: 10px;
-    rotate: -2deg;
-}
-
-.gallery a {
-    z-index: 0;
-} */

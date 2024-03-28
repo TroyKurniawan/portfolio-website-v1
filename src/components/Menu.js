@@ -6,7 +6,7 @@ export default function Nav() {
         <>
             {/* Button */}
             <div className='menu-button' onClick={openMenu}>
-                <img src={menuBtn}></img>
+                <img alt='' src={menuBtn}></img>
             </div>
 
             {/* Menu */}
@@ -23,14 +23,12 @@ export default function Nav() {
 
 // Function to open/close menu
 function openMenu() {
-    console.log("openMenu");
     const ddMenu = document.querySelector('.dd-menu');
     ddMenu.classList.toggle('open');
 }
 
 // Function to close menu when any button is pressed
 function buttonCloseMenu() {
-    console.log("buttonCloseMenu");
     const ddMenu = document.querySelector('.dd-menu');
     ddMenu.classList.toggle('open');
 }
