@@ -18,7 +18,7 @@
     display: inline;
 }
 .avatar {
-    width: 300px;
+    width: 250px;
     height: auto;
     border-radius: 50%;
     display: block;
@@ -45,7 +45,9 @@
 /* RESPONSIVE CSS */
 
 @media screen and (min-width: 540px) {
-
+    .avatar {
+      width: 300px;
+    }
 }
 
 @media screen and (min-width: 830px) {

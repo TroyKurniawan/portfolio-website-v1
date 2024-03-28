@@ -22,7 +22,7 @@ export default function Footer() {
 
                 <div className='footer-message'>Coded in <b>Visual Studio Code</b>. <br/>
                 Built with <b>React, Bootstrap, and love</b>. <br/>
-                Deployed with <b>[ADD SERVICE HERE]</b>. <br/><br/>
+                Deployed with <b>Vercel</b>. <br/><br/>
                 © 2024 Troy Kurniawan</div>
                 
             </div>

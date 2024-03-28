@@ -28,8 +28,8 @@ export const masterData = {
             title: 'Portfolio Website',
             subtitle: 'v1',
             date: '2024',
-            info: 'This website was built from scratch using React, with some styling help from Bootstrap. It is fully responsive providing a friendly user experience for any device.',
-            skills: 'React,Bootstrap,JavaScript,HTML & CSS,Adobe Photoshop',
+            info: 'This website was built from scratch using React, with some styling help from Bootstrap. It is fully responsive providing a friendly user experience for any device. It is deployed with Vercel.',
+            skills: 'React,Bootstrap,JavaScript,HTML & CSS,Adobe Photoshop,Vercel',
             link: 'https://github.com/TroyKurniawan/portfolio-website-v1',
             link_text: 'View GitHub Repository'
         },
@@ -47,9 +47,9 @@ export const masterData = {
     education: {
         sjsu: {
             title: 'San José State University',
-            subtitle: 'B.S. Computer Engineering • Mathematics Minor',
+            subtitle: 'San José, CA',
             date: '2019',
-            info: '',
+            info: 'B.S. Computer Engineering • Mathematics Minor',
             skills: '',
             link: '',
             link_text: ''
@@ -58,7 +58,7 @@ export const masterData = {
             title: 'Google IT Support Professional Certificate',
             subtitle: 'Online Course (Coursera)',
             date: '2023',
-            info: '',
+            info: 'Completed an online IT support curriculum officially created by Google.',
             skills: '',
             link: 'https://coursera.org/share/18e90c082c0a9e32c3640edec22a0447',
             link_text: 'View Certification'
