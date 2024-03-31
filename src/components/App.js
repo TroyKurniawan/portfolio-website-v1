@@ -5,7 +5,6 @@ import Section from './Section.js';
 import Footer from './Footer.js';
 import ImageGallery from './ImageGallery.js';
 import '../styles/App.css';
-import download from '../assets/download.svg';
 
 export default function App() {
   return (
