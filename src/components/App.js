@@ -5,6 +5,7 @@ import Section from './Section.js';
 import Footer from './Footer.js';
 import ImageGallery from './ImageGallery.js';
 import '../styles/App.css';
+import download from '../assets/download.svg';
 
 export default function App() {
   return (
@@ -39,12 +40,17 @@ export default function App() {
         {/* Hero Section (Avatar and Greeting) */}
         <Hero />
 
+        {/* About */}
         <span className='anchor' id='about'></span>
         <div className='section'>
           <h1>About</h1>
           <Section
             data = {masterData.about.me}
           />
+          {/* <a className='btn btn-dark download' href='https://drive.google.com/drive/folders/1rbsAB6Sxl3Pkkktw_H8MdjHZo2LEXFZt?usp=sharing' target="_blank" rel="noopener noreferrer">
+              <b>Résumé</b>
+              <img className='dl-icon' alt='' src={download} />
+          </a> */}
           <ImageGallery />
         </div>
 
@@ -86,11 +92,6 @@ export default function App() {
             data = {masterData.education.google_certificate}
           />
         </div>
-
-        {/* <div className='arrow'>
-          <img src={arrow} />
-          <h3>Back to top</h3>
-        </div> */}
 
         <Footer />
         

@@ -7,8 +7,8 @@ export const masterData = {
             date: '',
             info: "I'm Troy Kurniawan, a front-end web developer from the San Francisco Bay Area. I've always been interested in all things tech, whether it be tinkering with video game consoles, or building a PC. I was eventually introduced to web development in university, where I would make webapps for classes and student clubs. After a break, I've now reignited my passion for webdev, looking to explore everything it has to offer and what's to come next. In my spare time, I like to write music, DJ, draw, and catch Pokémon.",
             skills: '',
-            link: '',
-            link_text: ''
+            link: 'https://docs.google.com/document/d/1gy0M7aY56jnjf-0IkKhDmMG0XXgW8Sh1D6JNVYyMfDg/edit?usp=sharing',
+            link_text: 'Download Résumé'
         }
     },
     experience: {

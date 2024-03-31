@@ -1,6 +1,5 @@
 .gallery {
     display: grid;
-    /* flex-wrap: wrap; */
     justify-content: center;
 }
 
