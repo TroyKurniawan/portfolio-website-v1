@@ -2,17 +2,20 @@ import '../styles/Section.css';
 
 // object --> title, subtitle, date, location, info 
 
-export default function Section({ data }) {
+export default function Section({ data, img }) {
     return (
-        <div className='data'>
-            <p>{ data.date }</p>
-            <h2>{ data.title }</h2>
-            <h3>{ data.subtitle }</h3>
-            <p>{ data.info }</p>
-            <div class='section-footer'>
-                <DisplaySkills data={data} />
-                <DisplayLink data={data} />
+        <div className='section-container'>
+            <div className='data'>
+                <p className='date'>{ data.date }</p>
+                <h2>{ data.title }</h2>
+                <h3>{ data.subtitle }</h3>
+                <p>{ data.info }</p>
+                <div class='section-footer'>
+                    <DisplaySkills data={data} />
+                    <DisplayLink data={data} />
+                </div>
             </div>
+            <img src={img} alt={data.title} className='blue-shadow-box'/>
         </div>
     );
 }

@@ -5,6 +5,8 @@ import Section from './Section.js';
 import Footer from './Footer.js';
 import ImageGallery from './ImageGallery.js';
 import '../styles/App.css';
+import whosthatpokecry from '../assets/whosthatpokecry.jpg';
+import resumewebsite from '../assets/resumewebsite.jpg';
 
 export default function App() {
   return (
@@ -71,7 +73,10 @@ export default function App() {
         <div className='section'>
           <h1>Projects</h1>
           <Section
-            data = {masterData.projects.portfolio}
+            data = {masterData.projects.whos_that_pokecry} img={whosthatpokecry}
+          />
+          <Section
+            data = {masterData.projects.portfolio} img={resumewebsite}
           />
           <Section
             data = {masterData.projects.firefighter_finder}

@@ -8,7 +8,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    height: 90px;
+    height: 70px;
     width: 100%;
     padding: 20px 40px;
     display: flex;
@@ -44,8 +44,10 @@ header {
 
 @media screen and (min-width: 830px) {
     header {
+        height: 90px;
         padding: 20px 80px;
     }
+    
 }
 
 @media screen and (min-width: 1070px) {
@@ -54,5 +56,8 @@ header {
     }
     .menu {
         display: none;
+    }
+    header {
+        height: 90px;
     }
 }

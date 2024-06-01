@@ -20,11 +20,34 @@
     /* width: 300px; */
 }
 
+.date {
+    color: gray;
+}
+
+.section-container {
+    display: inline;
+    align-items: center;
+}
+.section-container img {
+    height: 0;
+    width: 0;
+}
+
 @media screen and (min-width: 830px) {
     .data span {
         font-size: 15px;
     }
     .data a {
         font-size: 18px;
+    }
+    .section-container {
+        display: flex;
+    }
+    .section-container img {
+        visibility: visible;
+        width: 150px;
+        height: 100%;
+        margin: 20px;
+        border-radius: 10px;
     }
 }
