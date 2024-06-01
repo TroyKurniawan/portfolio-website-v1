@@ -15,7 +15,7 @@ export default function Section({ data, img }) {
                     <DisplayLink data={data} />
                 </div>
             </div>
-            <img src={img} alt={data.title} className='blue-shadow-box'/>
+            {img && <img src={img} alt={data.title} className='blue-shadow-box'/>}
         </div>
     );
 }
