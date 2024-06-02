@@ -28,14 +28,14 @@ export const masterData = {
             title: 'Who\'s That PokéCry?',
             subtitle: 'How well do you remember Pokémon cries?',
             date: 'Mar 2024 - Present',
-            info: 'Developed an online Pokémon game that tests how well fans remember Pokémon cries (a sound that is unique to each individual Pokémon). Players are given a random cry, and must guess which Pokémon the cry belongs too.',
+            info: 'Developed an online Pokémon game that tests how well fans remember Pokémon cries (a sound that is unique to each individual Pokémon). Players are given a random cry, and must guess which Pokémon the cry belongs too. The game can be played on all devices.',
             skills: 'React,Typescript,Tailwind CSS,JavaScript,HTML & CSS,Python,Adobe Photoshop,Vercel',
             link: 'https://whos-that-pokecry.vercel.app',
             link_text: 'View Website'
         },
         portfolio: {
             title: 'Portfolio Website',
-            subtitle: 'v1',
+            subtitle: 'You are here!',
             date: 'Mar 2024',
             info: 'Developed a portfolio website from scratch using React, with some styling help from Bootstrap. It is fully responsive providing a friendly user experience for any device.',
             skills: 'React,Bootstrap,JavaScript,HTML & CSS,Adobe Photoshop,Vercel',
@@ -45,7 +45,7 @@ export const masterData = {
         firefighter_finder: {
             title: 'Real-time GPS Module + Website Interface Tracker',
             subtitle: '"Firefighter Finder"',
-            date: 'Jan 2019 - May 2019',
+            date: 'Jan - May 2019',
             info: 'Developed a proof-of-concept GPS tracking system meant for firefighters. Created using a Wi-Fi enabled microcontroller paired with a GPS module, where location data is sent to a Google Firebase database. A website interface was developed to track every GPS module on a Google Map, which provides latitude/longitude coordinates and drawing tools.',
             skills: 'JavaScript,HTML & CSS,Google Firebase',
             link: 'https://youtu.be/JNLT8FqZ3aM',

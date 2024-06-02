@@ -45,9 +45,9 @@
     }
     .section-container img {
         visibility: visible;
-        width: 150px;
+        width: 180px;
         height: 100%;
-        margin: 20px;
+        margin-right: 70px;
         border-radius: 10px;
     }
 }

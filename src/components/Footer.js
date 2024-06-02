@@ -21,7 +21,6 @@ export default function Footer() {
                 </div>
 
                 <div className='footer-message'>
-                    Coded in <b>Visual Studio Code</b>. <br/>
                     Built with <b>React</b> and <b>Bootstrap</b>. <br/>
                     Deployed with <b>Vercel</b>. <br/><br/>
                     © 2024 Troy Kurniawan

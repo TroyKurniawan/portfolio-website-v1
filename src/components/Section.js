@@ -5,6 +5,7 @@ import '../styles/Section.css';
 export default function Section({ data, img }) {
     return (
         <div className='section-container'>
+            {img && <img src={img} alt={data.title} className='blue-shadow-box'/>}
             <div className='data'>
                 <p className='date'>{ data.date }</p>
                 <h2>{ data.title }</h2>
@@ -15,7 +16,7 @@ export default function Section({ data, img }) {
                     <DisplayLink data={data} />
                 </div>
             </div>
-            {img && <img src={img} alt={data.title} className='blue-shadow-box'/>}
+            
         </div>
     );
 }

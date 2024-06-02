@@ -7,6 +7,7 @@ import ImageGallery from './ImageGallery.js';
 import '../styles/App.css';
 import whosthatpokecry from '../assets/whosthatpokecry.jpg';
 import resumewebsite from '../assets/resumewebsite.jpg';
+import firefighterfinder from '../assets/firefighterfinder.jpg';
 
 export default function App() {
   return (
@@ -57,17 +58,6 @@ export default function App() {
 
         <hr />
 
-        {/* Experience */}
-        <span className='anchor' id='experience'></span>
-        <div className='section'>
-          <h1>Experience</h1>
-          <Section
-            data = {masterData.experience.western_digital}
-          />
-        </div>
-
-        <hr />
-
         {/* Projects */}
         <span className='anchor' id='projects'></span>
         <div className='section'>
@@ -79,7 +69,18 @@ export default function App() {
             data = {masterData.projects.portfolio} img={resumewebsite}
           />
           <Section
-            data = {masterData.projects.firefighter_finder}
+            data = {masterData.projects.firefighter_finder} img={firefighterfinder}
+          />
+        </div>
+
+        <hr />
+
+        {/* Experience */}
+        <span className='anchor' id='experience'></span>
+        <div className='section'>
+          <h1>Experience</h1>
+          <Section
+            data = {masterData.experience.western_digital}
           />
         </div>
 
