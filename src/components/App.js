@@ -5,6 +5,7 @@ import Section from './Section.js';
 import Footer from './Footer.js';
 import ImageGallery from './ImageGallery.js';
 import '../styles/App.css';
+import musicdatabasesearchtool from '../assets/musicdatabasesearchtool.jpg';
 import whosthatpokecry from '../assets/whosthatpokecry.jpg';
 import resumewebsite from '../assets/resumewebsite.jpg';
 import firefighterfinder from '../assets/firefighterfinder.jpg';
@@ -62,6 +63,9 @@ export default function App() {
         <span className='anchor' id='projects'></span>
         <div className='section'>
           <h1>Projects</h1>
+          <Section
+            data = {masterData.projects.music_database_search_tool} img={musicdatabasesearchtool}
+          />
           <Section
             data = {masterData.projects.whos_that_pokecry} img={whosthatpokecry}
           />

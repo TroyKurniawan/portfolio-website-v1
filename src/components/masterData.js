@@ -15,7 +15,7 @@ export const masterData = {
         western_digital: {
             title: 'Western Digital',
             subtitle: 'Software Engineer',
-            date: '2019 - 2021',
+            date: 'July 2019 - June 2021',
             info: 'Maintained an internal-website hosting webapps used by the department. Webapps fetched and displayed various user data to coworkers to diagnose user device issues, including device log data (status, errors, updates, capacity, boot up times, etc) and user account data (email, login time, device serial numbers, etc). Ensured that coworkers have the tools they need to diagnose and solve the issues of +100,000 device users.',
             skills: 'JavaScript,HTML & CSS',
             link: '',
@@ -24,6 +24,15 @@ export const masterData = {
     },
 
     projects: {
+        music_database_search_tool: {
+            title: 'Music Database Search Tool / Music Artist Website',
+            subtitle: 'Easily search through a 100+ song discography!',
+            date: 'July 2024 - Present',
+            info: 'Created a search tool to filter and sort through music from a music artist\'s discography. Users are able to sift through 100+ songs by title, release date, tempo, key, label, and more. This tool was created as part of a full website to host the artist\'s biography, portfolio, performances, etc.',
+            skills: 'React,Typescript,Tailwind CSS,JavaScript,HTML & CSS,Python,Adobe Photoshop,Vercel',
+            link: 'https://similaroutskirts.vercel.app/music',
+            link_text: 'View Website'
+        },
         whos_that_pokecry: {
             title: 'Who\'s That PokéCry?',
             subtitle: 'How well do you remember Pokémon cries?',

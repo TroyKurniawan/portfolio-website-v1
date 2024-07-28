@@ -2,6 +2,7 @@ import linkedin from '../assets/linkedin-logo.png';
 import github from '../assets/github-mark-white.svg';
 import email from '../assets/email.png';
 import '../styles/Footer.css';
+export const currentYear = new Date().getFullYear();
 
 export default function Footer() {
     return (
@@ -23,7 +24,7 @@ export default function Footer() {
                 <div className='footer-message'>
                     Built with <b>React</b> and <b>Bootstrap</b>. <br/>
                     Deployed with <b>Vercel</b>. <br/><br/>
-                    © 2024 Troy Kurniawan
+                    © {currentYear} Troy Kurniawan
                 </div>
                 
             </div>
