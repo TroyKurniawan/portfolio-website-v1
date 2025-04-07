@@ -29,8 +29,8 @@ export const masterData = {
             subtitle: 'Easily search through a 100+ song discography!',
             date: 'July 2024 - Present',
             info: 'Created a search tool to filter and sort through music from a music artist\'s discography. Users are able to sift through 100+ songs by title, release date, tempo, key, label, and more. This tool was created as part of a full website to host the artist\'s biography, portfolio, performances, etc.',
-            skills: 'React,Typescript,Tailwind CSS,JavaScript,HTML & CSS,Python,Adobe Photoshop,Vercel',
-            link: 'https://similaroutskirts.vercel.app/music',
+            skills: 'React,Next.js,Typescript,Tailwind CSS,JavaScript,HTML & CSS,Python,Adobe Photoshop,Vercel',
+            link: 'https://similaroutskirts.com/music',
             link_text: 'View Website'
         },
         whos_that_pokecry: {
